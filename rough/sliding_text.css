@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+
+
+    
+    body{
+        min-height: 100vh;
+        background-color: black;
+    }
+    
+    .wrapper{
+        color: white;
+        top: 20%;
+        padding: 2rem;
+        position: absolute;
+    }
+    
+    .wrapper p{
+        width: 55vw;
+        margin: 1rem 0;
+        font-weight: 300;
+    }
+    
+    .wrapper button{
+        padding: .8rem 1.6rem;
+        background-color: crimson;
+        color: white;
+        border: none;
+        border-radius: 2rem;
+        font-size: 1rem;
+    }
+    
+    .wrapper .content{
+        font: lighter 3rem "poppins",sans-serif;
+    }
+    
+    .wrapper .content ol{
+        list-style: none;
+        --height:3.8rem;
+        height: var(--height);
+        line-height: var(--height);
+        overflow: hidden;
+    }
+    
+    
+    .wrapper .content ol li{
+        animation: slide_up 12s infinite;
+    
+    }
+    
+    @keyframes slide_up {
+        0%,10%{
+            transform: translateY(0%);
+        }
+        15%,25%{
+            transform: translateY(-100%);
+        }
+        30%,40%{
+            transform: translateY(-200%);
+        }
+    }
+    
+    .wrapper .content ol li span{
+        font-weight: 600;
+        -webkit-text-fill-color: transparent;
+        background: linear-gradient(20deg,cyan,magenta);
+        -webkit-background-clip: text;
+    }
+
+
+
