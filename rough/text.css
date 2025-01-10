@@ -1,0 +1,37 @@
+.content{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-wrapper{
+    font-size: 40px;
+    color: #aaa;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider{
+    height: 50px;
+    padding-left: 15px;
+}
+
+.slider div{
+    height: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.slider-text1{
+    background-color: transparent;
+}
+.slider-text2{
+    background-color: transparent;
+}
+.slider-text3{
+    background-color: transparent;
+}
